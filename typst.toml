@@ -1,0 +1,11 @@
+[package]
+name = "iaik-bachelor-thesis-template"
+version = "1.0.0"
+entrypoint = "./src/lib.typ"
+authors = ["csskevin"]
+license = "MIT"
+description = "IAIK Bachelor Thesis Template"
+
+[template]
+path = "./"
+entrypoint = "demo.typ"
