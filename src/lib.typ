@@ -27,6 +27,8 @@
     hyphenate: false
   )
 
+  show raw: set text(size: 11pt)
+
   set par(leading: 0.55em, first-line-indent: 1.8em, justify: true)
   show raw: set text(font: "New Computer Modern Mono")
   show par: set block(spacing: 0.55em)
