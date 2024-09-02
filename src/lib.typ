@@ -67,6 +67,7 @@
       top: 82.2pt,
       bottom: 151.65pt
     ),
+    numbering: "1/1"
   )
 
   set heading(numbering: none)
