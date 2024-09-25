@@ -30,6 +30,7 @@
   show raw: set text(size: 11pt)
 
   set par(leading: 0.55em, first-line-indent: 1.8em, justify: true)
+  show figure: set par(justify: false)
   show raw: set text(font: "New Computer Modern Mono")
   show par: set block(spacing: 0.55em)
   show heading: set block(above: 1.4em, below: 1em)
@@ -66,8 +67,7 @@
     margin: (
       top: 82.2pt,
       bottom: 151.65pt
-    ),
-    numbering: "1/1"
+    )
   )
 
   set heading(numbering: none)
@@ -92,7 +92,7 @@
   set align(center + bottom)
   block(text("BACHELOR'S THESIS", weight: "bold"), below: 10pt)
   block(text("Bachelor's degree programme: " + curriculum), below: 44pt)
-  block(text(if str_to_array(supervisors).len() > 1 [Supervisors] else [Supervisor], size: 10pt, weight: "bold"), below: 11pt)
+  // block(text(if str_to_array(supervisors).len() > 1 [Supervisors] else [Supervisor], size: 10pt, weight: "bold"), below: 11pt)
   str_to_array(supervisors).map(supervisor => block(text(supervisor), above: 7pt, below: 0pt)).join("")
   v(13pt)
   block(text(institute), below: 7pt)
@@ -113,6 +113,7 @@
       right: 1in + 17pt,
       bottom: 1in + 88pt
     ),
+    numbering: "1"
   )
   
   heading("Abstract", level: 1)
@@ -122,6 +123,10 @@
   text(str_to_array(keywords).join([ $dot$ ]))
 
   set heading(numbering: "1.1")
+
+  set cite(
+    style: "alphanumeric"
+  )
 
   pagebreak()
   text(doc)
