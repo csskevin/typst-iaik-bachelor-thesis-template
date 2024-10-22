@@ -1,5 +1,5 @@
 [package]
-name = "iaik-master-projetc-template"
+name = "iaik-master-project-template"
 version = "1.0.0"
 entrypoint = "./src/lib.typ"
 authors = ["csskevin", "ecomaikgolf"]
