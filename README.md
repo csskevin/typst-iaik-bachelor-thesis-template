@@ -1,18 +1,18 @@
-# IAIK Bachelor Thesis Template
+# IAIK Master's Project Template
 
 Install with
 ```sh
-git clone https://github.com/csskevin/typst-iaik-bachelor-thesis-template.git ~/.local/share/typst/packages/local/iaik-bachelor-thesis-template/1.0.0
+git clone https://github.com/ecomaikgolf/typst-iaik-master-project-template   ~/.local/share/typst/packages/local/iaik-master-project-template/1.0.0
 ```
 
 Init project with template
 ```sh
-typst init @local/iaik-bachelor-thesis-template:1.0.0
+typst init @local/iaik-master-project-template:1.0.0
 ```
 
 Use template with import statement
 ```typst
-#import "@local/iaik-bachelor-thesis-template:1.0.0": conf
+#import "@local/iaik-master-project-template:1.0.0": conf
 #show: conf.with(
   title: "Your Title",
   author: "Your Name",

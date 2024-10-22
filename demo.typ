@@ -1,4 +1,4 @@
-#import "@local/iaik-bachelor-thesis-template:1.0.0": conf
+#import "@local/iaik-master-project-template:1.0.0": conf
 #show: conf.with(
   title: "Your Title",
   author: "Your Name",

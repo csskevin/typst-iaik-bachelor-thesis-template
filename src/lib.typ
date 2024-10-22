@@ -89,9 +89,9 @@
   block(text(title, weight: "bold", size: 18pt), below: 35.4pt)
 
   set align(center + bottom)
-  block(text("BACHELOR'S THESIS", weight: "bold"), below: 10pt)
-  block(text("Bachelor's degree programme: " + curriculum), below: 44pt)
-  // block(text(if str_to_array(supervisors).len() > 1 [Supervisors] else [Supervisor], size: 10pt, weight: "bold"), below: 11pt)
+  block(text("PROJECT", weight: "bold"), below: 10pt)
+  block(text("Master's degree programme: " + curriculum), below: 44pt)
+  block(text(if str_to_array(supervisors).len() > 1 [Supervisors] else [Supervisor], size: 10pt, weight: "bold"), below: 11pt)
   str_to_array(supervisors).map(supervisor => block(text(supervisor), above: 7pt, below: 0pt)).join("")
   v(13pt)
   block(text(institute), below: 7pt)
