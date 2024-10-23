@@ -7,5 +7,5 @@ license = "MIT"
 description = "IAIK Bachelor Thesis Template"
 
 [template]
-path = "./"
-entrypoint = "demo.typ"
+path = "template"
+entrypoint = "thesis.typ"
